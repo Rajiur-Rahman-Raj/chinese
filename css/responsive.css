@@ -1,0 +1,309 @@
+/*===============================================================
+    Extra small devices (portrait phones, less than 576px)
+=================================================================*/
+
+@media(max-width:575px){
+        .dp-bootom-text p{
+        padding: 0px 0px 28px 0px;
+    }
+    #banner2 {
+        padding-top: 30px;
+    }
+    .last-policy{
+        margin-top: 0px !important;
+    }
+    .dtp-image{
+        margin-left: 0px !important;
+    }
+    .team-overlay-text h3 {
+        font-size: 40px;
+        font-size: 23px;
+    }
+    .team-overlay-text p{
+        font-size: 12px;
+    }
+    .team-overlay-text {
+        padding: 49px 30px 50px 30px;
+    }
+    
+    .banner-text h2 {
+        font-size: 17px;
+    }
+    .banner-text {
+        padding-top: 100px;
+    }
+    .inner-text {
+        margin-bottom: 50px;
+        width: 100%;
+        padding: 12px 4px;
+    }
+    .decission-heading-text p {
+        font-size: 12px;
+    }
+    .decission-heading h2 {
+        font-size: 16px;
+    }
+    .decission-heading a {
+        font-size: 12px;
+        padding: 1px 6px;
+        right: 12px;
+        bottom: 7px;
+    }
+    .inner-text h3 {
+        font-size: 12px;
+        margin-left: 138px !important;
+    }
+    .dp-bootom-text p {
+        padding: 0px 0px 42px 0px;
+        font-size: 12px;
+    }
+    .res-cal{
+        font-size: 14px !important;
+    }
+    .review-heading h2 {
+        font-size: 28px;
+    }
+    .review-sliding-text h3 {
+        font-size: 10px;
+    }
+    .multilingual-heading h2 {
+        font-size: 16px;
+    }
+    .multilingual-text p {
+        font-size: 12px;
+    }
+    .multilingual-heading a {
+        font-size: 12px;
+        padding: 1px 5px;
+        right: 2px;
+        bottom: 7px;
+    }
+    .production-heading h2 {
+        font-size: 16px;
+    }
+    .production-heading a {
+        font-size: 12px;
+        padding: 1px 5px;
+        right: 2px;
+        bottom: 26px;
+        
+    }
+    .dtp-title h3 {
+        font-size: 15px;
+    }
+    .q-heading-link h3 {
+        font-size: 16px;
+    }
+    .costomer-text ul{
+        text-align: center !important;
+    }
+    .costomer-text h3 {
+        width: 100%;
+    }
+    .purchase-text h3 {
+        font-size: 12px;
+        margin-left: 10px;
+    }
+    .purchase-text h4 {
+        font-size: 12px;
+        margin-left: 10px;
+    }
+    .purchase-text p {
+        font-size: 12px;
+        margin-left: 10px;
+    }
+    .production-heading a {
+        right: 24px;
+    }
+    .text-right {
+        margin-right: 20px;
+    }
+    .inner-text2 h3 {
+        font-size: 17px;
+    }
+    .inner-text2 {
+        width: 100%;
+    }
+    .q-area {
+        margin-left: 10px;
+    }
+    .q-area p {
+        font-size: 10px;
+    }
+    .a-area {
+        margin-left: 10px;
+    }
+    .a-area p {
+        font-size: 10px;
+    }
+    
+}
+
+
+/*===============================================================
+    Small devices (landscape phones, 576px and up)
+=================================================================*/
+
+@media(min-width:576px) and (max-width:767px){
+    .dp-bootom-text p {
+        padding: 0px 0px 28px 0px;
+    }
+    #banner2 {
+        padding-top: 30px;
+    }
+    .last-policy{
+        margin-top: 0px !important;
+    }
+    .dtp-image{
+        margin-left: 0px !important;
+    }
+    .team-overlay-text h3 {
+        font-size: 40px;
+    }
+    .team-overlay-text p{
+        font-size: 12px;
+    }
+    .team-overlay-text {
+        padding: 49px 30px 50px 30px;
+    }
+    .banner-text h2 {
+        font-size: 17px;
+    }
+    .banner-text {
+        padding-top: 100px;
+    }
+    .inner-text {
+        margin-bottom: 50px;
+        margin-left: -129px;
+        width: 100%;
+    }
+    .decission-heading-text p {
+        font-size: 12px;
+    }
+    .decission-heading h2 {
+        font-size: 24px;
+    }
+    .inner-text h3 {
+        font-size: 15px;
+        margin-left: 110px !important;
+    }
+    .dp-bootom-text p {
+        padding: 0px 0px 42px 0px;
+        font-size: 12px;
+    }
+    .res-cal{
+        font-size: 14px !important;
+    }
+    .review-heading h2 {
+        font-size: 28px;
+    }
+    .review-sliding-text h3 {
+        font-size: 10px;
+    }
+    .multilingual-heading h2 {
+        font-size: 28px;
+    }
+    .multilingual-text p {
+        font-size: 12px;
+    }
+    .production-heading h2 {
+        font-size: 28px;
+    }
+    .production-heading a {
+        bottom: 33px;
+    }
+    .dtp-title h3 {
+        font-size: 15px;
+    }
+    .q-heading-link h3 {
+        font-size: 16px;
+    }
+    .costomer-text ul{
+        text-align: center !important;
+    }
+    .costomer-text h3 {
+        width: 100%;
+    }
+    .purchase-text h3 {
+        font-size: 12px;
+    }
+    .purchase-text h4 {
+        font-size: 12px;
+    }
+    .purchase-text p {
+        font-size: 12px;
+    }
+}
+
+
+/*===============================================================
+     Medium devices (tablets, 768px and up)
+=================================================================*/
+
+@media(min-width:768px) and (max-width:991px){
+    .dp-bootom-text p{
+        padding: 0px 0px 28px 0px;
+    }
+    #banner2{
+        padding-top: 64px;
+    }
+    .last-policy{
+        margin-top: -268px !important;
+    }
+    .dtp-image{
+        margin-left: 0px !important;
+    }
+    .team-overlay-text h3{
+        font-size: 16px;
+    }
+    .team-overlay-text p{
+        font-size: 12px;
+    }
+    .team-overlay-text {
+        padding: 9px 30px 2px 30px;
+    }
+    .banner-text h2 {
+        font-size: 25px;
+    }
+    .banner-text {
+        padding-top: 100px;
+    }
+    .inner-text {
+        margin-bottom: 70px;
+    }
+    .decission-heading-text p {
+        font-size: 14px;
+    }
+}
+
+
+/*===============================================================
+     Large devices (desktops, 992px and up)
+=================================================================*/
+
+@media(min-width:992px) and (max-width:1199px){
+    .last-policy{
+        margin-top: -212px !important;
+    }  
+    .dtp-image{
+        margin-left: 0px !important;
+    }
+    .team-overlay-text{
+        padding: 10px 30px 10px 30px;
+    }
+    .slider1-item > .overlay-text h3 {
+        font-size: 16px;
+
+    }
+    .slider1-item > .overlay-text a {
+        bottom: -45%;
+    }
+}
+
+/*===============================================================
+      Extra large devices (large desktops, 1200px and up)
+=================================================================*/
+
+@media(min-width:1200px){
+    
+}

@@ -1,0 +1,998 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ul,ol {
+    list-style-type: none;
+}
+img {
+    border: 0;
+}
+
+
+/*==================================
+    HEADER PART CSS START 
+====================================*/
+
+.header-text{
+    height: 50px;
+    line-height: 50px;
+}
+.header-text p{
+    color: #000000;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+/*==================================
+    HEADER PART CSS FINISH 
+====================================*/
+
+
+
+/*==================================
+    NAVBAR PART CSS START 
+====================================*/
+
+.bg-light{
+    background:none !important;
+}
+.navbar button{
+    background: #eae0e0;
+}
+
+.navbar {
+    background: url(../images/menu_overlay_bg.png) !important;
+    border-bottom: 2px solid #4A4A4A;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    height: 55px;
+    transition: all linear 0.5s;
+}
+
+/* stickey bg when we scroll  start*/
+
+.navbg{
+    background: #801717 !important;
+    top: 0;
+    transition: all linear 0.5s;
+}
+
+/* stickey bg when we scroll finish*/
+
+
+.navbar-light .navbar-nav .active>.nav-link{
+    color: #589def;
+    border-bottom: 2px solid #0D51A2;
+} 
+
+.navbar-light .navbar-nav .nav-link {
+    color: #FFFFFF;
+    margin-right: 60px;
+    
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #589def;
+    border-bottom: 2px solid #0D51A2;
+}
+
+/*==================================
+    NAVBAR PART CSS FINSIH 
+====================================*/
+
+
+
+/*==================================
+    BANNER PART CSS START 
+====================================*/
+
+#banner{
+    background: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+#banner:after{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(13, 16, 14, 0.4);
+}
+
+.banner-text{
+    position: relative;
+    z-index: 99;
+    padding-top: 130px;
+}
+.banner-text h2{
+    color: #fff;
+    font-size: 38px;
+    font-weight: 700;
+    margin-left: 126px;
+}
+.inner-text {
+    background: url(../images/inner_text_bg.png);
+    padding: 18px 0px;
+    margin-top: 35px;
+    margin-bottom: 140px;
+    width: 700px;
+    margin-left:-128px; 
+    width: 830px;
+}
+.inner-text h3 {
+    color: #030c00;
+    font-weight: 700;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    margin-left: 173px !important;
+}
+.inner-text2{
+    border: 8px solid #B6B6B4;
+    padding:25px;
+    width: 453px;
+    color: white;
+    margin-bottom: 30px;
+    opacity: 0.9;
+    background: none;
+}
+.inner-text2 h3{
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+/*==================================
+    BANNER PART CSS FINISH
+====================================*/
+
+
+
+/*==================================
+    PRODUCT SLIDER CSS START 
+====================================*/
+
+
+.slider1-item{
+    position: relative;
+    border: 1px solid #444;
+}
+
+.slider1-item img{
+    width: 100%;
+}
+
+.overlay-text{
+    position: absolute;
+    left: 7%;
+    top: 12%;
+    
+}
+
+.slider1-item>.overlay-text h3{
+    font-size: 20px;
+    color: #000;
+    font-weight: 700;
+    padding: 0px 124px 0px 0px;
+    line-height: 24px;
+    font-family: arial;
+}
+
+.slider1-item>.overlay-text a {
+    background: #0070B9;
+    font-size: 11px;
+    color: #fff;
+    padding: 1px 9px;
+    transition: all .5s ease;
+    border-radius: 20%;
+    border: none;
+    position: absolute;
+    bottom: -50%;
+}
+.slider1-item>.overlay-text a:hover{
+    background: red;
+}
+
+.product-arrow{}
+.p-left{
+    font-size: 30px;
+    margin-right: 10px;
+    cursor: pointer;
+
+}
+.p-left:hover{
+    color: #0070B9;
+    transition: all .5s ease;
+}
+.p-right{
+    font-size: 30px;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+.p-right:hover{
+    color: #0070B9;
+}
+.slick-dots {
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -80px;  
+    cursor: pointer;
+}
+.slick-dots li  {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: #0070B9;
+    margin: 0 5px; 
+    line-height:36px;
+    border-radius: 50%;
+}
+
+.slick-dots li button {
+    color: #0070B9;
+    width: 10px;
+    height: 10px;
+    background: #ca1717;
+    border: 0;
+    opacity: 0;
+    border-radius: 50%;
+    transform: scale(1.7);
+    cursor: pointer;
+}
+.slick-dots li.slick-active button {
+    opacity: 1;
+}
+
+/*==================================
+    PRODUCT SLIDER CSS FINISH 
+====================================*/
+
+
+
+/*==================================
+    DECISSION PLANNING CSS START 
+====================================*/
+
+#decision{
+    background: #f4f4f5;
+
+}
+
+.decission-heading{
+    margin-top: 100px;
+}
+
+.decission-heading h2{
+    font-size: 35px;
+    font-weight: bold;
+    position: relative;
+    background:url('../images/heading_bg.png') repeat;
+    display: inline-block;
+}
+.decission-heading h2:after {
+    position: absolute;
+    content: '';
+    width: 390px;
+    height: 2px;
+    top: -8%;
+    left: 50%;
+    background: url(../images/decission_after.png);
+    transform: translateX(-50%);
+}
+
+.decission-heading h2:before {
+    position: absolute;
+    content: '';
+    width: 390px;
+    height: 2px;
+    left: 50%;
+    bottom: -3px;
+    background: url(../images/decission_after.png);
+    transform: translateX(-50%);
+}
+.decission-heading a {
+    background: #0070B9;
+    font-size: 12px;
+    color: #fff;
+    padding: 4px 9px;
+    transition: all .5s ease;
+    border-radius: 20%;
+    border: none;
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+
+    
+}
+.decission-heading a:hover{
+    background: red;
+    color: white;
+}
+
+.decission-heading-text{}
+.decission-heading-text p{
+    font-size: 17px;
+    color: #000;
+    width: 100%;
+    font-weight: bold;
+}
+
+
+element.style {
+}
+.dp-image-gallery {
+    background: white;
+    /* border: 2px solid red; */
+    box-shadow: 3px 5px 5px #b3acac;
+}
+.dp-image-gallery img{
+    width: 100%;
+}
+.dp-image-gallery h3{
+    font-size: 16px;
+    color: #0372ba;
+    font-weight: 700;
+    text-align:center;
+    padding: 15px 0px;
+}
+.dp-bootom-text p {
+    font-size: 16px;
+    color: #000;
+    font-weight: 700;
+    text-align: center;
+    padding: 0px 180px;
+    line-height: 26px;
+}
+
+/*==================================
+    DECISSION PLANNING CSS FINISH 
+====================================*/
+
+
+
+/*==================================
+    BANNER SLIDING CSS START 
+====================================*/
+
+#banner2{
+    background: url('../images/banner2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 187px;
+}
+#banner2:after{
+    
+}
+.banner2-sliding{
+/*    width: 700px;*/
+/*   margin: 0px 0px 0px 367px;*/
+}
+.banner2-slide-area{
+    padding-bottom: 40px;
+}
+.banner2-slide-text{
+    width: 200px;
+    height: 50px;
+    background: #42A1C2;
+    border-radius: 10px;
+    position: relative;
+    margin-left: 350px;
+    margin-bottom: 15px;
+}
+.banner2-slide-text img{
+    position: absolute;
+    top: -33%;
+    left: -32%;
+}
+/*.banner2-slide-text ul{
+    margin-left: 60px;
+}*/
+
+.banner2-slide-text ul li{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+/*==================================
+    BANNER SLIDING CSS FINISH 
+====================================*/
+
+
+
+/*==================================
+    REVIEW PART CSS START
+====================================*/
+
+#review{
+    background: #fff;
+/*    margin-bottom: 30px;*/
+
+}
+
+.review-heading{
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.review-heading h2{
+    font-size: 35px;
+    font-weight: bold;
+    position: relative;
+    background: url(../images/heading_bg.png) repeat;
+    display: inline-block;
+}
+.review-heading h2:after {
+    position: absolute;
+    content: '';
+    width: 390px;
+    height: 2px;
+    top: -8%;
+    left: 50%;
+    background: url(../images/decission_after.png);
+    transform: translateX(-50%);
+}
+
+.review-heading h2:before {
+    position: absolute;
+    content: '';
+    width: 390px;
+    height: 2px;
+    left: 50%;
+    bottom: -3px;
+    background: url(../images/decission_after.png);
+    transform: translateX(-50%);
+}
+.review-heading a {
+    background: #0070B9;
+    font-size: 12px;
+    color: #fff;
+    padding: 4px 9px;
+    transition: all .5s ease;
+    border-radius: 20%;
+    border: none;
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+
+    
+}
+.review-heading a:hover{
+    background: red;
+    color: white;
+}
+
+.review-sliding-text h3{
+    font-size: 15px;
+    font-weight: bold;
+    color:#000;
+    text-align: center
+}
+
+/*==================================
+    REVIEW PART CSS FINISH
+====================================*/
+
+
+
+/*==================================
+    MULTILINGUAL PART CSS START
+====================================*/
+
+#multilingual{
+    background: #EEEEEE;
+    margin-top: 10px;
+}
+
+.multilingual-heading{
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.multilingual-heading h2{
+    font-size: 35px;
+    font-weight: bold;
+    position: relative;
+    background: url(../images/heading_bg.png) repeat;
+    display: inline-block;
+}
+.multilingual-heading h2:after {
+    position: absolute;
+    content: '';
+    width: 390px;
+    height: 2px;
+    top: -8%;
+    left: 50%;
+    background: url(../images/decission_after.png);
+    transform: translateX(-50%);
+}
+
+.multilingual-heading h2:before {
+    position: absolute;
+    content: '';
+    width: 390px;
+    height: 2px;
+    left: 50%;
+    bottom: -3px;
+    background: url(../images/decission_after.png);
+    transform: translateX(-50%);
+}
+.multilingual-heading a {
+    background: #0070B9;
+    font-size: 12px;
+    color: #fff;
+    padding: 4px 9px;
+    transition: all .5s ease;
+    border-radius: 20%;
+    border: none;
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+
+    
+}
+.multilingual-heading a:hover{
+    background: red;
+    color: white;
+}
+.multilingual-text p {
+    color: #3d3e40;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 15px;
+}
+.multilingual-text a {
+    padding: 7px 70px;
+    font-size: 17px;
+    font-weight: 700;
+    background: #0372ba;
+}
+.multilingual-text a:hover{
+    
+}
+
+/*==================================
+    MULTILINGUAL PART CSS FINISH
+====================================*/
+
+
+
+/*==================================
+    POLICY PART CSS START
+====================================*/
+
+#policy{
+    background: #f4f4f5;
+    padding:45px 0px;
+}
+.policy-text {
+    background: #fff;
+    padding: 20px 18px 20px 30px;
+    box-shadow: 3px 3px 4px #807979;
+    border-radius: 7px;
+    margin-bottom: 10px;
+}
+.policy-text h3{
+    color: #0372ba;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.policy-text a{
+    color: #616366;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.policy-text a i{
+    color: #0372BA;
+    font-size: 17px;
+}
+.policy-text p{
+    color: #000;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+/*==================================
+    POLICY PART CSS FINISH
+====================================*/
+
+
+
+/*==================================
+    PRODUCTION PART CSS START
+====================================*/
+
+.production-heading{
+    margin-top: 12px;
+    margin-bottom: 20px;
+}
+
+.production-heading h2{
+    font-size: 35px;
+    font-weight: bold;
+    position: relative;
+    background: url(../images/heading_bg.png) repeat;
+    display: inline-block;
+}
+.production-heading h2:after {
+    position: absolute;
+    content: '';
+    width: 390px;
+    height: 2px;
+    top: -8%;
+    left: 50%;
+    background: url(../images/decission_after.png);
+    transform: translateX(-50%);
+}
+
+.production-heading h2:before {
+    position: absolute;
+    content: '';
+    width: 390px;
+    height: 2px;
+    left: 50%;
+    bottom: -3px;
+    background: url(../images/decission_after.png);
+    transform: translateX(-50%);
+}
+.production-heading a {
+    background: #0070B9;
+    font-size: 12px;
+    color: #fff;
+    padding: 4px 9px;
+    transition: all .5s ease;
+    border-radius: 20%;
+    border: none;
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+
+    
+}
+.production-heading a:hover{
+    background: red;
+    color: white;
+}
+.production-value{
+    margin-top: 40px;
+}
+.production-value ul li {
+    display: inline-block;
+    margin-right: 5px;
+    height: 29px;
+    background: none;
+    font-size: 39px;
+    border-radius: 50%;
+    color: #0070B9;
+    font-weight: bold;
+    position: relative;
+}
+.production-value ul li:after {
+    position: absolute;
+    content: '';
+    left: -19px;
+    top: 26px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #0070B9;
+}
+
+.production-value ul li:before {
+    position: absolute;
+    content: '';
+    left: 54px;
+    top: 26px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #0070B9;
+}
+/*==================================
+    PRODUCTION PART CSS FINISH
+====================================*/
+
+
+
+/*==================================
+    DTP PART CSS START
+====================================*/
+.dtp-title{
+    background: #536277;
+    display: inline-block;
+    padding: 9px 55px;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    position: relative;
+}
+.dtp-title:before {
+    position: absolute;
+    content: '';
+    left: 45%;
+    bottom: -25px;
+    width: 45px;
+    height: 25px;
+    background: url(../images/down_arrow.png);
+    background-repeat: no-repeat;
+}
+.dtp-title h3{
+    color:#FFF;
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+    
+}
+
+/*=======================================
+   QUESTION AND ANSWER PART CSS START
+=========================================*/
+
+#question{
+    background: url('../images/banner3.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    margin-bottom: 20px;
+}
+.q-heading-link{
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 25px;
+}
+
+.q-heading-link h3{
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+    
+}
+
+.q-heading-link a{
+    color: #616366;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.q-heading-link a i{
+    color: #0372BA;
+    font-size: 17px;
+}
+.question-text p{
+    color: #000;
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.q-area{
+/*    margin-bottom: 20px;*/
+}
+.q-area p{
+    background: #0372BA;
+    padding: 5px 20px;
+    font-size: 12px;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 30px;
+    display: inline-block;
+    position: relative;
+}
+.q-area p:before {
+    position: absolute;
+    content: '';
+    top: -3px;
+    left: -18px;
+    width: 70px;
+    height: 70px;
+    background: url(../images/q.png);
+    background-repeat: no-repeat;
+}
+
+.a-area{
+/*    margin-bottom: 20px;*/
+}
+.a-area p{
+    background: #536277;
+    padding: 5px 20px;
+    font-size: 12px;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 30px;
+    display: inline-block;
+    position: relative;
+}
+.a-area p:before {
+    position: absolute;
+    content: '';
+    top: -3px;
+    left: -18px;
+    width: 70px;
+    height: 70px;
+    background: url(../images/a.png);
+    background-repeat: no-repeat;
+}
+
+/*=======================================
+   QUESTION AND ANSWER PART CSS FINISH
+=========================================*/
+
+
+
+/*=======================================
+   TEAM  PART CSS START
+=========================================*/
+
+#team{
+    
+}
+.team-text{
+    position: relative;
+}
+.team-text img{
+    width: 100%;
+}
+.team-text:before{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0,0.7);
+}
+.team-overlay-text{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 3px solid #989494;
+    padding: 30px 30px 15px 30px;
+    opacity: 1.7;
+    width: 88%;
+    font-weight: 700;
+}
+
+.preloader{
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    position: fixed;
+    z-index: 99999;
+}
+
+.preloader img{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.team-overlay-text h3{
+    color: #fff;
+    font-size: 26px;
+    margin: 0;
+    font-weight: 700;
+}
+.overlay-text p{
+   color: #fff;
+    font-size: 26px;
+    margin: 0; 
+}
+
+/*=======================================
+   TEAM PART CSS FINISH
+=========================================*/
+
+
+
+/*=======================================
+   CUSTOMER TEXT CSS START
+=========================================*/
+#customer {
+    background: #F4F4F5;
+    padding-top: 23px;
+    padding-bottom: 15px;
+}
+.costomer-text{
+    
+}
+.costomer-text h3 {
+    width: 22px;
+    height: 3px;
+    background: #595757;
+}
+
+.costomer-text ul li{
+    font-size: 14px;
+    color: #595757;
+    font-weight: 400;
+}
+.purchase-text h3{
+    color: #3d3e40;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.purchase-text h4{
+    color: #676566;
+    font-size: 14px;
+    font-weight: 700;
+}
+.purchase-text p{
+     color: #676566;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+}
+.purchase-btn{
+    margin-top: 35px;
+}
+.purchase-btn a{
+    color: #fff;
+    font-weight: 700;
+}
+.purchese-btn1{
+    padding: 3px 30px;
+    box-shadow: 2px 4px 2px #000000;
+    background: #595757 !important;
+    border-radius: 8px;
+    margin-right: 20px;
+    transition: all 0.5s ease;
+}
+.purchese-btn1:hover{
+    background: #a70505 !important;
+    color: #fff !important;
+}
+.purchese-btn2{
+    padding: 3px 30px;
+    box-shadow: 2px 4px 2px #000000;
+    background: #595757 !important;
+    border-radius: 8px;
+    transition: all 0.5s ease;
+}
+
+.purchese-btn2:hover{
+    background: #a70505 !important;
+    color: #fff !important;
+}
+
+/*=======================================
+   CUSTOMER TEXT CSS FINISH
+=========================================*/
+
+
+
+/*=======================================
+   FOOTER PART START
+=========================================*/
+
+.footer-text p{
+    margin-top: 15px;
+    color: #595757;
+    font-size: 12px;
+}
+
+/*=======================================
+   FOOTER PART FINISH
+=========================================*/
+ 
